@@ -1,0 +1,27 @@
+GALORIS GAMING — FREE GITHUB PAGES HOSTING
+
+This website is fully static: no database, Node.js, or build process is required.
+
+QUICK METHOD — GITHUB WEBSITE
+1. Create a free GitHub account at github.com if you do not already have one.
+2. Create a new repository. A name like "galoris-gaming" works well.
+3. Set the repository to Public (GitHub Pages is simplest this way on a free account).
+4. Open the repository, choose Add file > Upload files.
+5. Upload the CONTENTS of the Galoris_Gaming_Website folder — index.html should be at the repository root, not nested inside another folder.
+6. Commit the uploaded files.
+7. Open repository Settings > Pages.
+8. Under Build and deployment, choose "Deploy from a branch".
+9. Select Branch: main and Folder: / (root), then Save.
+10. After GitHub publishes the site, the Pages screen will show the public address. It will normally be:
+      https://YOUR-GITHUB-USERNAME.github.io/galoris-gaming/
+
+UPDATING THE SITE LATER
+- Upload/replace changed files in the same repository and commit them.
+- GitHub Pages automatically republishes the site after the commit.
+
+IMPORTANT
+- Keep index.html in the repository root.
+- Keep the assets folder beside the HTML files.
+- File and folder names are case-sensitive once hosted.
+- The Varashta checklist uses browser localStorage. Progress is device/browser-specific and is not synchronized through GitHub.
+- External Mobalytics links require internet access, but the Galoris pages themselves are static.
