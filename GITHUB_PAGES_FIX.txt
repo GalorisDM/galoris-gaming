@@ -1,0 +1,21 @@
+ANIMATED ACADEMY GITHUB PAGES FORMATTING FIX
+
+This package includes three safeguards for GitHub Pages:
+
+1. CSS and JavaScript references include a version query string (?v=20260903-1) to force browsers/CDNs to fetch the current files.
+2. Critical Conquest and Zeta/Omicron layout CSS is embedded directly in those HTML pages, so those pages cannot lose their special formatting just because an older shared stylesheet is cached.
+3. A .nojekyll file is included so GitHub Pages treats the repository as a plain static site.
+
+RECOMMENDED UPDATE METHOD
+- Replace the entire contents of your GitHub repository with the contents of this folder.
+- Make sure .nojekyll, index.html, all other HTML files, and the assets folder are at the repository root.
+- Commit/push all changed files, including assets/animated-academy.css.
+- After GitHub Pages finishes deploying, use Ctrl+F5 once on the site to force-refresh any old browser cache.
+
+If you only want to replace the affected files, upload at minimum:
+- swgoh-animated-academy-conquest.html
+- swgoh-animated-academy-priorities.html
+- assets/animated-academy.css
+- .nojekyll
+
+The full replacement is preferred because it keeps versioned asset references consistent across the site.
