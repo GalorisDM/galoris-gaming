@@ -52,3 +52,7 @@ ANIMATED ACADEMY v4 UPDATE
 - Added ranked Data Disk recommendations and sample disk loadouts.
 - Updated Omicron priorities and placed Padawan Obi-Wan's Conquest Omicron in Immediate Must Have.
 - Removed creator/reference links and creator-attribution callouts from the Animated Academy child-site pages.
+
+
+ANIMATED ACADEMY SITE SHELL
+The Animated Academy pages use their own alliance-branded header/navigation. Galoris Gaming appears only as a small hosted-and-maintained credit in the footer linking back to index.html.
