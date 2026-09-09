@@ -1,0 +1,77 @@
+/* Galoris visual edition. Parent skins deliberately exclude the alliance. */
+body:not(.aa-page){--accent:#64e8eb;--accent-dark:#086b78;--surface:#101c23;--gold:var(--accent);--cyan:var(--accent);--brand-cyan:var(--accent);--muted:#bbc8cc;background:radial-gradient(ellipse at 90% 15%,#12313955,transparent 55%),#070c11;font-size:1rem;line-height:1.6}
+body[data-page="home"]{--art:url('art/home.webp')}
+body[data-page="swgoh"]:not(.aa-page){--art:url('art/swgoh.webp');--accent:#88d5ff;--accent-dark:#195485;--surface:#101d2c}
+body[data-page="poe2"]{--art:url('art/poe2.webp');--accent:#e3bb7b;--accent-dark:#7e4d25;--surface:#231d18;--muted:#d0c5b7;--brand-blue:#956133;--brand-ivory:#f8eedc}
+body[data-page="diablo4"]{--art:url('art/diablo.webp');--accent:#ff9484;--accent-dark:#871e25;--surface:#251719;--muted:#d1bfc0}
+body[data-page="rpg"]{--art:url('art/rpg.webp');--accent:#e1c896;--accent-dark:#78613a;--surface:#20231f;--muted:#cbcbbf}
+body:not(.aa-page):before{opacity:.08;background-size:72px 72px}
+body:not(.aa-page) h1{font-size:clamp(2.7rem,5.7vw,5.5rem);line-height:1.06;letter-spacing:-.04em;margin:16px 0 22px}
+body:not(.aa-page) h2{font-size:clamp(1.8rem,3.2vw,2.8rem);line-height:1.15}
+body:not(.aa-page) h3{font-size:1.4rem;line-height:1.25;margin:12px 0}
+body[data-page="home"] h1,body[data-page="swgoh"]:not(.aa-page) h1,body:not(.aa-page) .brand-copy{font-family:ui-sans-serif,system-ui,sans-serif;font-weight:750}
+body:not(.aa-page) .site-header{background:#080e13ed;border-bottom-color:#a8dfe52a}
+body:not(.aa-page) .brand img{width:62px;height:62px}
+body:not(.aa-page) .brand-copy span{font-size:.75rem;letter-spacing:.035em}
+body:not(.aa-page) .site-nav a{border-radius:5px;font-size:.875rem}
+body:not(.aa-page) .site-nav a.active{box-shadow:inset 0 -2px var(--accent);background:#ffffff09}
+body:not(.aa-page) .hero{position:relative;isolation:isolate;padding:68px 0 62px;min-height:470px;background:linear-gradient(90deg,#060b11ed 0%,#080c12bd 42%,#080c1220 80%),linear-gradient(0deg,#070c11,transparent 45%),var(--art) center/cover;border-bottom:1px solid #ffffff18}
+body:not(.aa-page) .hero:before{display:none}
+body:not(.aa-page) .hero-grid{grid-template-columns:minmax(0,760px);position:relative}
+body:not(.aa-page) .hero .lead{max-width:620px;color:#e0e4e4;text-shadow:0 2px 10px #000;font-size:1.1rem}
+body[data-page="home"] .hero-grid{grid-template-columns:1.5fr .6fr;gap:65px}
+body[data-page="home"] .hero{min-height:490px}
+body[data-page="home"] .home-logo-art{min-height:300px;background:#050b10a6;border:1px solid #a7edf440;clip-path:none;border-radius:50%;box-shadow:0 0 65px #26d8ec16;aspect-ratio:1}
+body[data-page="home"] .home-logo-art:before,body[data-page="home"] .home-logo-art:after{display:none}
+body[data-page="home"] .home-logo-art img{object-fit:contain;border-radius:50%;inset:5%;width:90%;height:90%}
+body:not(.aa-page) .eyebrow,body:not(.aa-page) .card .kicker{color:var(--accent);font-size:.8rem;letter-spacing:.15em;text-shadow:none}
+body:not(.aa-page) .btn{border-radius:6px;padding:12px 18px;background:#0a101cba;border-color:#ffffff3b;min-height:46px;font-size:.9rem;transition:background .2s,transform .2s}
+body:not(.aa-page) .btn.primary{background:linear-gradient(120deg,var(--accent-dark),#101a21);border-color:var(--accent);color:#fff;box-shadow:0 8px 24px #0004}
+body:not(.aa-page) .btn.gold{background:#e0f7f5;color:#09171b;border-color:#e0f7f5}
+body:not(.aa-page) .btn:hover{transform:translateY(-2px);filter:brightness(1.14)}
+body:not(.aa-page) .section{padding:44px 0}
+body:not(.aa-page) .section-head{align-items:center;margin-bottom:28px;gap:32px}
+body:not(.aa-page) .section-head h2{margin:7px 0 12px}
+body:not(.aa-page) .section-head p{max-width:470px}
+body:not(.aa-page) .section-head:before{background:linear-gradient(90deg,var(--accent),transparent);height:2px;width:180px}
+body:not(.aa-page) .card,body:not(.aa-page) .panel{background:linear-gradient(135deg,var(--surface),#090e13);border:1px solid #d2e5e526;border-radius:10px;box-shadow:0 12px 30px #0003}
+body:not(.aa-page) .card{padding:24px}
+body:not(.aa-page) .card p{margin-bottom:0}
+body:not(.aa-page) .feature-card{transition:transform .24s,border-color .24s,box-shadow .24s}
+body:not(.aa-page) .feature-card:after{display:none}
+body:not(.aa-page) a.feature-card:hover{transform:translateY(-5px);border-color:var(--accent);box-shadow:0 16px 36px #0008}
+body:not(.aa-page) .feature-card .kicker{margin-top:0}
+.game-cover{width:calc(100% + 48px);max-width:none;height:210px;object-fit:cover;margin:-24px -24px 24px;border-bottom:1px solid #ffffff20;transition:filter .25s}
+a:hover .game-cover{filter:brightness(1.15)}
+body[data-page="home"] .card-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+body[data-page="home"] .feature-card{padding:24px 22px 28px}
+body[data-page="home"] .game-cover{margin:-24px -22px 24px;width:calc(100% + 44px);height:225px}
+body[data-page="home"] .card h3{font-size:1.5rem;min-height:3.2rem}
+body[data-page="home"] .card p{font-size:.95rem}
+.holo-decoration{height:88px;border:1px solid #86d7fa24;margin:-8px -8px 24px;background:repeating-linear-gradient(0deg,transparent 0 5px,#90dafa09 5px 6px),linear-gradient(135deg,#12354c,#0a1421);display:grid;place-items:center;color:#a6e6ff;font-size:3rem}
+body:not(.aa-page) .image-feature-card{padding-top:160px}
+body:not(.aa-page) .image-feature-card .feature-banner{height:137px;object-fit:contain;background:#02080b}
+body[data-page="rpg"] .panel,body[data-page="rpg"] .location-card{border-top:2px solid #bfa66b70;background:linear-gradient(125deg,#2a2b23,#111915)}
+body[data-page="rpg"] .deity{border-radius:3px;border-top-color:#d6c09270}
+body[data-page="rpg"] .section-nav .btn{background:#101610cc}
+body[data-page="diablo4"] .panel{border-top:2px solid #cd554b;background:linear-gradient(135deg,#291b1d,#100e12)}
+body[data-page="poe2"] .varashta-hero{display:block;background:linear-gradient(90deg,#18140df5,#18140dd9 58%,#18140d55),var(--art) center/cover;border-color:#b8996255;padding:28px}
+.varashta-hero>div:first-child{max-width:840px}
+body[data-page="poe2"] .varashta-hero h1{font-size:clamp(2rem,4vw,3.2rem)}
+body[data-page="poe2"] .varashta-intro{padding-top:26px}
+body[data-page="poe2"] .varashta-toolbar,body[data-page="poe2"] .varashta-side,body[data-page="poe2"] .varashta-tabs{background:#171710}
+body[data-page="poe2"] .varashta-content{background:#10120f}
+body[data-page="poe2"] .vr-primary{background:#71532e;color:#fff}
+body[data-page="poe2"] .varashta-zbtn.active{background:#332d21}
+body[data-page="poe2"] .varashta-task{background:linear-gradient(135deg,#24251d,#161a17);border-color:#c3b58e33}
+body:not(.aa-page) .site-footer{border-color:#ffffff20;font-size:.875rem}
+/* Independent Animated Academy: retain all branding, tighten readability and interaction. */
+.aa-page .aa-hero h1{line-height:1.03}
+.aa-page .aa-card{transition:border-color .2s,box-shadow .2s}
+.aa-page .aa-card:hover{border-color:#04e3ea70;box-shadow:0 10px 32px #0005}
+.aa-page .aa-hero-figure img{object-fit:contain}
+:where(a,button,input,summary,select):focus-visible{outline:3px solid #f2d58e;outline-offset:4px}
+:target{scroll-margin-top:110px}
+@media(max-width:1050px){body[data-page="home"] .card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}body[data-page="home"] .hero-grid{gap:30px;grid-template-columns:1.4fr .6fr}body[data-page="home"] .home-logo-art{min-height:210px}.brand-copy span{max-width:210px}.nav-wrap{flex-wrap:wrap}}
+@media(max-width:760px){body:not(.aa-page) .hero{min-height:0;padding:44px 0;background-position:65% center}body[data-page="home"] .hero-grid{grid-template-columns:1fr}body[data-page="home"] .home-logo-art{display:none}body:not(.aa-page) h1{font-size:clamp(2.5rem,9vw,4rem)}body:not(.aa-page) .section-head{display:block}body:not(.aa-page) .card-grid{grid-template-columns:1fr}body:not(.aa-page) .section{padding:30px 0}body:not(.aa-page) .hero .lead{font-size:1rem}.game-cover,body[data-page="home"] .game-cover{height:200px}body[data-page="home"] .card h3{min-height:0}body:not(.aa-page) .brand-copy strong{font-size:.85rem}body:not(.aa-page) .brand img{width:46px;height:46px}body:not(.aa-page) .brand-copy span{font-size:.75rem}.nav-wrap{gap:10px}.footer-row{align-items:flex-start;flex-direction:column}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}body:not(.aa-page) a.feature-card:hover,body:not(.aa-page) .btn:hover{transform:none}}

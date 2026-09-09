@@ -1,0 +1,91 @@
+GALORIS GAMING — VISUAL EDITION / 8 SEPTEMBER 2026
+
+BASELINE
+Galoris_Gaming_Website_Animated_Academy_Update_v6_StandaloneAlliance.zip
+All ten HTML pages retained. Existing logos, alliance banner, section SVG marks,
+calendar data, guide content and campaign runner retained.
+
+SOURCING REVIEW
+Official sources reviewed on 8 September 2026:
+https://www.pathofexile.com/forum/view-thread/3587754
+GGG announcement links an official Early Access press kit. Suitable artwork
+reuse terms were not established during this review; no files imported.
+https://blizzard.gamespress.com/Diablo-IV
+Official Diablo IV press assets identified; opening returned 401 Unauthorized.
+No files imported and no permission inferred from search listings.
+https://help.ea.com/en/articles/security-and-rules/ea-content-policy/
+EA fan-content policy reviewed. No third-party Star Wars artwork imported.
+These references document research, not a blanket license or legal clearance.
+
+EXISTING ASSETS
+Galoris Gaming logo, favicon and footer icon: carried forward from user baseline.
+Animated Academy logo, banner and favicon: carried forward without redesign.
+Existing SVG section symbols: retained from baseline; not newly sourced official logos.
+Underlying ownership/permissions for user-supplied material remain unchanged.
+
+ORIGINAL ASSETS
+assets/art/home.webp: original cyan crystalline cavern / cosmic energy.
+assets/art/swgoh.webp: original blue orbital station and starfield atmosphere.
+assets/art/poe2.webp: original mystical desert ruins with sand and ember light.
+assets/art/diablo.webp: original smoky gothic cathedral with red ember light.
+assets/art/rpg.webp: original fantasy mountain city, bridges and waterfalls.
+Generated using the built-in image-generation tool for this redesign. These are
+atmospheric illustrations, not official game screenshots, characters, maps or
+claims about game locations. No copyrighted promotional composition requested.
+The RPG artwork is evocative scenery, not a geographical map of Galoris.
+All served artwork is packaged locally and optimized to WebP.
+
+SUPPORTING UI
+Original CSS gradients, thin frames, holographic scan lines and restrained hover
+lighting. No animation libraries, external fonts, tracking, or hotlinked art added.
+Existing source/reference hyperlinks remain optional references; local guides
+and tools remain accessible in the package.
+
+DESIGN
+Home: cinematic cyan hero, preserved crest, four artwork-led game entry cards.
+SWGOH: blue orbital header, holographic resource cards, visible alliance banner.
+PoE2: sand/brass palette, desert header, illustrated build card and compact runner intro.
+Diablo IV: gothic red/charcoal header and stone-like feature surface.
+RPG: landscape header, warm manuscript accents, framed lore and location panels.
+Animated Academy: independent header and branding maintained; footer credit only.
+Minor alliance improvements: heading line height, keyboard focus and card lighting.
+Reduced-motion support disables motion; mobile layouts collapse without hiding content.
+
+
+GALORIS ATLAS AND ILLUSTRATED LORE UPDATE — 9 SEPTEMBER 2026
+Map: user-owned Galoris_Coast_Touch_Up.png, full 5720 x 6330 source pixels retained. Converted to high-quality WebP (quality 95) for delivery. No map features, labels, or settlement positions edited.
+Dardin Falls: existing user artwork, Dardin Falls, City of Bridges.png, converted to WebP.
+Brookhollow and Borahn: original generated interpretations based on Galorispdfbest.pdf. Borahn spelling follows the packet and existing site.
+Pantheon: twelve original illustrations based on the appearance and sacred symbol descriptions on PDF pages 4–13. Symbols appear as prominent heraldic medallions. These are artistic interpretations, not additional setting canon.
+Images generated through the built-in image generation tool, converted to local WebP assets at quality 88. No added external art or runtime dependencies.
+Image files: assets/lore/*.webp; map: assets/maps/galoris-east.webp.
+
+GENERATION PROMPTS
+aldir: Use case: stylized-concept. Create one polished painterly fantasy illustration for the Galoris world compendium website. Subject: A stern knight in adamantine plate shining with sunlight, golden crown, star-shaped pupils. Rich fine detail, cinematic illumination, deep jewel shadows and antique gold highlights, atmospheric setting. Landscape 3:2 composition, character occupies left and center. In the lower right include a clearly separated round heraldic medallion showing exactly this sacred symbol: Radiant golden crown on a blue field. This symbol must read clearly at thumbnail size. No lettering. Original setting art, no logos or watermarks.
+
+anora: Use case: stylized-concept. Create one polished painterly fantasy illustration for the Galoris world compendium website. Subject: Beautiful adult human wizard woman in flowing dark star-patterned robes, black hair with motes of light; living weave of magic. Rich fine detail, cinematic illumination, deep jewel shadows and antique gold highlights, atmospheric setting. Landscape 3:2 composition, character occupies left and center. In the lower right include a clearly separated round heraldic medallion showing exactly this sacred symbol: An open book. This symbol must read clearly at thumbnail size. No lettering. Original setting art, no logos or watermarks.
+
+zelander: Use case: stylized-concept. Create one polished painterly fantasy illustration for the Galoris world compendium website. Subject: Scruffy unkempt adult human rogue mercenary, one eye covered with an eye patch, cunning good-natured smile, tossing a gold coin. Rich fine detail, cinematic illumination, deep jewel shadows and antique gold highlights, atmospheric setting. Landscape 3:2 composition, character occupies left and center. In the lower right include a clearly separated round heraldic medallion showing exactly this sacred symbol: Spinning golden coin. This symbol must read clearly at thumbnail size. No lettering. Original setting art, no logos or watermarks.
+
+axnus: Use case: stylized-concept. Create one polished painterly fantasy illustration for the Galoris world compendium website. Subject: Large heavyset adult male healer in white and gold robes, warm humorous smile, compassionate hands. Rich fine detail, cinematic illumination, deep jewel shadows and antique gold highlights, atmospheric setting. Landscape 3:2 composition, character occupies left and center. In the lower right include a clearly separated round heraldic medallion showing exactly this sacred symbol: Hands cupping a pained face. This symbol must read clearly at thumbnail size. No lettering. Original setting art, no logos or watermarks.
+
+bukoni: Use case: stylized-concept. Create one polished painterly fantasy illustration for the Galoris world compendium website. Subject: Ten-foot-tall elven huntress of rugged ethereal beauty, ranger in a sacred forest with a bow; nearby trees establish scale. Rich fine detail, cinematic illumination, deep jewel shadows and antique gold highlights, atmospheric setting. Landscape 3:2 composition, character occupies left and center. In the lower right include a clearly separated round heraldic medallion showing exactly this sacred symbol: A bow with an arrow nocked. This symbol must read clearly at thumbnail size. No lettering. Original setting art, no logos or watermarks.
+
+gibeus: Use case: stylized-concept. Create one polished painterly fantasy illustration for the Galoris world compendium website. Subject: Large grizzled male soldier in plate armor, full white beard and mustache, lion fur cloak, medals and battlefield trophies. Rich fine detail, cinematic illumination, deep jewel shadows and antique gold highlights, atmospheric setting. Landscape 3:2 composition, character occupies left and center. In the lower right include a clearly separated round heraldic medallion showing exactly this sacred symbol: Crossed axes on black. This symbol must read clearly at thumbnail size. No lettering. Original setting art, no logos or watermarks.
+
+tenera: Use case: stylized-concept. Create one polished painterly fantasy illustration for the Galoris world compendium website. Subject: Beautiful female living tree, bark body fully natural and nonsexual, vines for hair, flowers blooming at her steps, woodland animals. Rich fine detail, cinematic illumination, deep jewel shadows and antique gold highlights, atmospheric setting. Landscape 3:2 composition, character occupies left and center. In the lower right include a clearly separated round heraldic medallion showing exactly this sacred symbol: White oak tree on green. This symbol must read clearly at thumbnail size. No lettering. Original setting art, no logos or watermarks.
+
+maltrix: Use case: stylized-concept. Create one polished painterly fantasy illustration for the Galoris world compendium website. Subject: Beautiful adult female dark elf in fully clothed jester garments beneath a raging storm, wild expression, a small dry eye-shaped trophy earring (non-graphic). Rich fine detail, cinematic illumination, deep jewel shadows and antique gold highlights, atmospheric setting. Landscape 3:2 composition, character occupies left and center. In the lower right include a clearly separated round heraldic medallion showing exactly this sacred symbol: Whirling cyclone. This symbol must read clearly at thumbnail size. No lettering. Original setting art, no logos or watermarks.
+
+etdar: Use case: stylized-concept. Create one polished painterly fantasy illustration for the Galoris world compendium website. Subject: Powerful merman king with deep dark blue skin, stern hardened face, fish tail, wielding a trident under the stormy ocean. Rich fine detail, cinematic illumination, deep jewel shadows and antique gold highlights, atmospheric setting. Landscape 3:2 composition, character occupies left and center. In the lower right include a clearly separated round heraldic medallion showing exactly this sacred symbol: Fish impaled on a trident, clean heraldic depiction without gore. This symbol must read clearly at thumbnail size. No lettering. Original setting art, no logos or watermarks.
+
+zonia: Use case: stylized-concept. Create one polished painterly fantasy illustration for the Galoris world compendium website. Subject: Skeletal reaper in a black cloak bearing a scythe, dreamlike moonlit mist. Rich fine detail, cinematic illumination, deep jewel shadows and antique gold highlights, atmospheric setting. Landscape 3:2 composition, character occupies left and center. In the lower right include a clearly separated round heraldic medallion showing exactly this sacred symbol: Crescent moon with stars. This symbol must read clearly at thumbnail size. No lettering. Original setting art, no logos or watermarks.
+
+wuella: Use case: stylized-concept. Create one polished painterly fantasy illustration for the Galoris world compendium website. Subject: Adult woman assassin cloaked completely in shadows, wielding two kukri daggers; mysterious restrained menace. Rich fine detail, cinematic illumination, deep jewel shadows and antique gold highlights, atmospheric setting. Landscape 3:2 composition, character occupies left and center. In the lower right include a clearly separated round heraldic medallion showing exactly this sacred symbol: Dripping blade. This symbol must read clearly at thumbnail size. No lettering. Original setting art, no logos or watermarks.
+
+dragaron: Use case: stylized-concept. Create one polished painterly fantasy illustration for the Galoris world compendium website. Subject: Ancient black dragon, enormous imperious wyrm, trace of green acid leaking from its scales, hatred and rage. Rich fine detail, cinematic illumination, deep jewel shadows and antique gold highlights, atmospheric setting. Landscape 3:2 composition, character occupies left and center. In the lower right include a clearly separated round heraldic medallion showing exactly this sacred symbol: Black sun. This symbol must read clearly at thumbnail size. No lettering. Original setting art, no logos or watermarks.
+
+brookhollow: Use case: stylized-concept. Create one polished painterly fantasy illustration for the Galoris world compendium website. Subject: Small farming village in northeastern Valacia nestled in green foothills with mountains north and east, cottages, fields, pastoral grounded fantasy. Rich fine detail, cinematic illumination, deep jewel shadows and antique gold highlights, atmospheric setting. Wide landscape city establishing shot, no lettering, no modern structures. Original setting art, no logos or watermarks.
+
+borahn: Use case: stylized-concept. Create one polished painterly fantasy illustration for the Galoris world compendium website. Subject: Capital of Valacia: great river city with docks and canals, lilac stone noble towers, central hill crowned by a royal castle and four fortified baileys, immense library, colored crystal gardens, southern bridges and fog. Rich fine detail, cinematic illumination, deep jewel shadows and antique gold highlights, atmospheric setting. Wide landscape city establishing shot, no lettering, no modern structures. Original setting art, no logos or watermarks.
+

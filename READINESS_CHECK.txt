@@ -1,0 +1,19 @@
+GITHUB PAGES READINESS — 9 SEPTEMBER 2026
+PASS: all 10 HTML entrypoints retained.
+PASS: 248 local HTML/CSS references and section anchors resolve.
+PASS: every local JavaScript file passes Node syntax checks; every raster image validates.
+PASS: map state tests cover fit, slider, buttons, bounds, drag, cancellation, keyboard reset and touch pinch.
+PASS: all 12 deity illustrations and 3 city illustrations included.
+PASS: full map dimensions retained at 5720 x 6330; lazy image loading.
+PASS: relative asset paths, local scripts, index.html and .nojekyll preserved.
+PASS: existing calendar, alliance, and campaign-runner scripts preserved.
+
+Map controls: slider, +/−, reset, expand/collapse, pointer pan, touch pinch, arrow keys, Home.
+Map keyboard use: Tab to map; arrows pan; +/− zoom; Home resets.
+Map zoom percentage is relative to the fitted overview, not the native pixel size.
+Normal mouse-wheel page scrolling is preserved. Zoom reveals existing image detail; it cannot restore information absent from the source.
+
+TESTING LIMITATION
+No rendered browser or live device test was performed. The available supervised browser preview does not support this buildless static package. Interaction logic was tested with a mocked DOM; final mobile/touch appearance should be checked after upload. No live GitHub deployment was performed.
+
+Existing gameplay data and calendar dates were preserved.

@@ -3,12 +3,18 @@
   const navToggle = document.querySelector('.nav-toggle');
   const nav = document.querySelector('.site-nav');
   if(navToggle && nav){
-    navToggle.addEventListener('click', () => nav.classList.toggle('open'));
+    nav.id = 'primary-nav';
+    navToggle.setAttribute('aria-controls', nav.id);
+    navToggle.setAttribute('aria-expanded', 'false');
+    navToggle.addEventListener('click', () => {
+      navToggle.setAttribute('aria-expanded', String(nav.classList.toggle('open')));
+    });
+    document.addEventListener('keydown', e => { if(e.key === 'Escape'){ nav.classList.remove('open'); navToggle.setAttribute('aria-expanded','false'); } });
   }
 
   const page = document.body.dataset.page;
   document.querySelectorAll('.site-nav a[data-page]').forEach(a => {
-    if(a.dataset.page === page) a.classList.add('active');
+    if(a.dataset.page === page) { a.classList.add('active'); a.setAttribute('aria-current','page'); }
   });
 
   document.querySelectorAll('[data-filter-input]').forEach(input => {
@@ -40,6 +46,7 @@
   document.querySelectorAll('a[href^="#"]').forEach(a => {
     a.addEventListener('click', () => {
       if(nav) nav.classList.remove('open');
+      if(navToggle) navToggle.setAttribute('aria-expanded','false');
     });
   });
 })();

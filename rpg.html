@@ -1,5 +1,5 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>RPGs • World of Galoris</title><meta name="description" content="A web-friendly guide to the world of Galoris."><link rel="icon" type="image/png" href="assets/favicon.png"><link rel="stylesheet" href="assets/styles.css?v=20260903-1"></head>
+<title>RPGs • World of Galoris</title><meta name="description" content="A web-friendly guide to the world of Galoris."><link rel="icon" type="image/png" href="assets/favicon.png"><link rel="stylesheet" href="assets/styles.css?v=20260908-premium"><link rel="stylesheet" href="assets/premium.css?v=20260908-premium"><link rel="stylesheet" href="assets/map-viewer.css?v=20260909"></head>
 <body data-page="rpg">
 <a class="skip-link" href="#content">Skip to content</a>
 <header class="site-header">
@@ -22,8 +22,23 @@
 <section class="hero"><div class="container hero-grid"><div>
 <div class="eyebrow">RPG World Guide</div><h1>The World of Galoris</h1>
 <p class="lead">A compact setting reference built from the Galoris world packet: creation myth, ages of history, gods, climate, and the places most useful at the table.</p>
-<div class="section-nav"><a class="btn" href="#history">History</a><a class="btn" href="#pantheon">Pantheon</a><a class="btn" href="#climate">Climate & Calendar</a><a class="btn" href="#locations">Locations</a><a class="btn" href="#borahn">Borahn</a></div>
-</div><div class="hero-art"><img src="assets/rpg-mark.svg" alt="Galoris Gaming RPG section mark"></div></div></section>
+<div class="section-nav"><a class="btn" href="#maps">Maps</a><a class="btn" href="#history">History</a><a class="btn" href="#pantheon">Pantheon</a><a class="btn" href="#climate">Climate & Calendar</a><a class="btn" href="#locations">Locations</a><a class="btn" href="#borahn">Borahn</a></div>
+</div></div></section>
+
+<section class="section" id="maps"><div class="container">
+<div class="section-head"><div><div class="eyebrow">Atlas of Galoris</div><h2>Explore the Eastern Continent</h2></div><p>Trace the rivers, mountain ranges, and roads of Galoris.</p></div>
+<div class="map-viewer" data-map-viewer>
+<div class="map-toolbar" hidden>
+<button type="button" data-zoom-out aria-label="Zoom out">−</button>
+<label for="map-zoom">Zoom</label><input id="map-zoom" type="range" min="100" max="1200" step="10" value="100"><output for="map-zoom">100%</output>
+<button type="button" data-zoom-in aria-label="Zoom in">+</button>
+<button type="button" data-reset>Reset view</button><button type="button" data-expand aria-expanded="false">Expand map</button>
+<a href="assets/maps/galoris-east.webp" target="_blank" rel="noopener">Open full image ↗</a>
+</div>
+<p class="map-help" id="map-help">Use the zoom slider or +/− buttons, then drag to explore. On touchscreens, pinch to zoom. With the map focused, use arrow keys to pan, +/− to zoom, and Home to reset.</p>
+<div class="map-viewport" tabindex="0" role="region" aria-label="Interactive map of the Eastern Continent" aria-describedby="map-help"><img src="assets/maps/galoris-east.webp" alt="Galoris Eastern Continent map with settlements, roads, rivers, forests, and mountain ranges" loading="lazy" draggable="false"></div>
+<noscript><p><a href="assets/maps/galoris-east.webp">Open the full-resolution map</a> to zoom with your browser.</p></noscript>
+</div></div></section>
 
 <section class="section" id="history"><div class="container">
 <div class="section-head"><div><div class="eyebrow">The big picture</div><h2>From the Elder Ones to the Third Age</h2></div><p>History is reduced to the events players are most likely to need, while keeping the setting’s names and cause-and-effect intact.</p></div>
@@ -41,75 +56,75 @@
 </div></div></div></section>
 
 <section class="section" id="pantheon"><div class="container">
-<div class="section-head"><div><div class="eyebrow">Faith & power</div><h2>Pantheon of Galoris</h2></div><p>Search by deity, portfolio, alignment, domain, or symbol.</p></div>
+<div class="section-head"><div><div class="eyebrow">Faith & power</div><h2>Pantheon of Galoris</h2></div><p>Search by deity, portfolio, alignment, domain, or symbol. Open an illustration to see its sacred emblem in detail.</p></div>
 <div class="search-box"><input type="search" data-filter-input=".deity" placeholder="Search the pantheon… e.g. war, nature, Anora, trickery"></div>
-<div class="deity-grid"><article class="card deity filter-item" data-search="Aldir Sun and Rulers Lawful Good War, Light Radiant golden crown on a blue field First among the mortal heroes of the Elder Wars and ruler-arbiter of the pantheon. Aldir represents leadership, protection, the sun, and opposition to undead. The Order of the Shield venerates him.">
+<div class="deity-grid"><article class="card deity filter-item" data-search="Aldir Sun and Rulers Lawful Good War, Light Radiant golden crown on a blue field First among the mortal heroes of the Elder Wars and ruler-arbiter of the pantheon. Aldir represents leadership, protection, the sun, and opposition to undead. The Order of the Shield venerates him."><a class="lore-art" href="assets/lore/aldir.webp" target="_blank" rel="noopener" aria-label="View Aldir illustration and symbol"><img src="assets/lore/aldir.webp" width="1536" height="1024" loading="lazy" alt="Aldir, illustrated with sacred symbol: Radiant golden crown on a blue field"></a>
       <div class="kicker">Sun and Rulers</div><h3>Aldir</h3>
       <div class="deity-meta"><span class="tag">Lawful Good</span><span class="tag">War, Light</span></div>
       <p>First among the mortal heroes of the Elder Wars and ruler-arbiter of the pantheon. Aldir represents leadership, protection, the sun, and opposition to undead. The Order of the Shield venerates him.</p>
       <dl><dt>Symbol</dt><dd>Radiant golden crown on a blue field</dd><dt>Domains</dt><dd>War, Light</dd></dl>
     </article>
-<article class="card deity filter-item" data-search="Anora Magic and Knowledge Neutral Good Knowledge Open book A human wizard hero of the Elder Wars who became the living weave of magic in Galoris. She supports most spellcasters and is closely tied to scholarship and the Great Academy of Alucius.">
+<article class="card deity filter-item" data-search="Anora Magic and Knowledge Neutral Good Knowledge Open book A human wizard hero of the Elder Wars who became the living weave of magic in Galoris. She supports most spellcasters and is closely tied to scholarship and the Great Academy of Alucius."><a class="lore-art" href="assets/lore/anora.webp" target="_blank" rel="noopener" aria-label="View Anora illustration and symbol"><img src="assets/lore/anora.webp" width="1536" height="1024" loading="lazy" alt="Anora, illustrated with sacred symbol: An open book"></a>
       <div class="kicker">Magic and Knowledge</div><h3>Anora</h3>
       <div class="deity-meta"><span class="tag">Neutral Good</span><span class="tag">Knowledge</span></div>
       <p>A human wizard hero of the Elder Wars who became the living weave of magic in Galoris. She supports most spellcasters and is closely tied to scholarship and the Great Academy of Alucius.</p>
       <dl><dt>Symbol</dt><dd>Open book</dd><dt>Domains</dt><dd>Knowledge</dd></dl>
     </article>
-<article class="card deity filter-item" data-search="Zelander Chance Chaotic Good Trickery, War Spinning golden coin A mercenary commander famous for impossible odds, deception, and games of chance. Adventurers, gamblers, thieves of good nature, and mischief-makers commonly invoke him.">
+<article class="card deity filter-item" data-search="Zelander Chance Chaotic Good Trickery, War Spinning golden coin A mercenary commander famous for impossible odds, deception, and games of chance. Adventurers, gamblers, thieves of good nature, and mischief-makers commonly invoke him."><a class="lore-art" href="assets/lore/zelander.webp" target="_blank" rel="noopener" aria-label="View Zelander illustration and symbol"><img src="assets/lore/zelander.webp" width="1536" height="1024" loading="lazy" alt="Zelander, illustrated with sacred symbol: Spinning golden coin"></a>
       <div class="kicker">Chance</div><h3>Zelander</h3>
       <div class="deity-meta"><span class="tag">Chaotic Good</span><span class="tag">Trickery, War</span></div>
       <p>A mercenary commander famous for impossible odds, deception, and games of chance. Adventurers, gamblers, thieves of good nature, and mischief-makers commonly invoke him.</p>
       <dl><dt>Symbol</dt><dd>Spinning golden coin</dd><dt>Domains</dt><dd>Trickery, War</dd></dl>
     </article>
-<article class="card deity filter-item" data-search="Axnus Mercy and Healing Chaotic Good Life, Light Hands cupping a pained face Aldir’s brother and chief healer during the Elder Wars. His followers emphasize compassion, healing, and care even across the lines of conflict.">
+<article class="card deity filter-item" data-search="Axnus Mercy and Healing Chaotic Good Life, Light Hands cupping a pained face Aldir’s brother and chief healer during the Elder Wars. His followers emphasize compassion, healing, and care even across the lines of conflict."><a class="lore-art" href="assets/lore/axnus.webp" target="_blank" rel="noopener" aria-label="View Axnus illustration and symbol"><img src="assets/lore/axnus.webp" width="1536" height="1024" loading="lazy" alt="Axnus, illustrated with sacred symbol: Hands cupping a pained face"></a>
       <div class="kicker">Mercy and Healing</div><h3>Axnus</h3>
       <div class="deity-meta"><span class="tag">Chaotic Good</span><span class="tag">Life, Light</span></div>
       <p>Aldir’s brother and chief healer during the Elder Wars. His followers emphasize compassion, healing, and care even across the lines of conflict.</p>
       <dl><dt>Symbol</dt><dd>Hands cupping a pained face</dd><dt>Domains</dt><dd>Life, Light</dd></dl>
     </article>
-<article class="card deity filter-item" data-search="Bukoni The Hunt Lawful Neutral Nature, Tempest Nocked bow An elven ranger whose sacred forest was destroyed in the Elder Wars. She is patron to rangers and defenders of wild places; the Order of the Oak is associated with her.">
+<article class="card deity filter-item" data-search="Bukoni The Hunt Lawful Neutral Nature, Tempest Nocked bow An elven ranger whose sacred forest was destroyed in the Elder Wars. She is patron to rangers and defenders of wild places; the Order of the Oak is associated with her."><a class="lore-art" href="assets/lore/bukoni.webp" target="_blank" rel="noopener" aria-label="View Bukoni illustration and symbol"><img src="assets/lore/bukoni.webp" width="1536" height="1024" loading="lazy" alt="Bukoni, illustrated with sacred symbol: A bow with an arrow nocked"></a>
       <div class="kicker">The Hunt</div><h3>Bukoni</h3>
       <div class="deity-meta"><span class="tag">Lawful Neutral</span><span class="tag">Nature, Tempest</span></div>
       <p>An elven ranger whose sacred forest was destroyed in the Elder Wars. She is patron to rangers and defenders of wild places; the Order of the Oak is associated with her.</p>
       <dl><dt>Symbol</dt><dd>Nocked bow</dd><dt>Domains</dt><dd>Nature, Tempest</dd></dl>
     </article>
-<article class="card deity filter-item" data-search="Gibeus War Lawful Neutral War Crossed axes on black Aldir’s greatest battlefield lieutenant and a strategic prodigy. Soldiers, gladiators, and adventurers venerate him; the Order of the Sword follows a vengeance-focused tradition.">
+<article class="card deity filter-item" data-search="Gibeus War Lawful Neutral War Crossed axes on black Aldir’s greatest battlefield lieutenant and a strategic prodigy. Soldiers, gladiators, and adventurers venerate him; the Order of the Sword follows a vengeance-focused tradition."><a class="lore-art" href="assets/lore/gibeus.webp" target="_blank" rel="noopener" aria-label="View Gibeus illustration and symbol"><img src="assets/lore/gibeus.webp" width="1536" height="1024" loading="lazy" alt="Gibeus, illustrated with sacred symbol: Crossed axes on black"></a>
       <div class="kicker">War</div><h3>Gibeus</h3>
       <div class="deity-meta"><span class="tag">Lawful Neutral</span><span class="tag">War</span></div>
       <p>Aldir’s greatest battlefield lieutenant and a strategic prodigy. Soldiers, gladiators, and adventurers venerate him; the Order of the Sword follows a vengeance-focused tradition.</p>
       <dl><dt>Symbol</dt><dd>Crossed axes on black</dd><dt>Domains</dt><dd>War</dd></dl>
     </article>
-<article class="card deity filter-item" data-search="Tenera Nature Neutral Nature, Life White oak tree on green An archdruid elevated after the Elder Wars. She is patron to druids and natural life, and her followers are especially hostile to aberrations that warp the natural world.">
+<article class="card deity filter-item" data-search="Tenera Nature Neutral Nature, Life White oak tree on green An archdruid elevated after the Elder Wars. She is patron to druids and natural life, and her followers are especially hostile to aberrations that warp the natural world."><a class="lore-art" href="assets/lore/tenera.webp" target="_blank" rel="noopener" aria-label="View Tenera illustration and symbol"><img src="assets/lore/tenera.webp" width="1536" height="1024" loading="lazy" alt="Tenera, illustrated with sacred symbol: White oak tree on green"></a>
       <div class="kicker">Nature</div><h3>Tenera</h3>
       <div class="deity-meta"><span class="tag">Neutral</span><span class="tag">Nature, Life</span></div>
       <p>An archdruid elevated after the Elder Wars. She is patron to druids and natural life, and her followers are especially hostile to aberrations that warp the natural world.</p>
       <dl><dt>Symbol</dt><dd>White oak tree on green</dd><dt>Domains</dt><dd>Nature, Life</dd></dl>
     </article>
-<article class="card deity filter-item" data-search="Maltrix Chaos and Storms Chaotic Neutral War, Tempest Whirling cyclone A dark elf devoted to Xabrathon’s cause and to chaos for its own sake. Her worship is associated with storms, berserk fury, unpredictability, and reckless experimentation.">
+<article class="card deity filter-item" data-search="Maltrix Chaos and Storms Chaotic Neutral War, Tempest Whirling cyclone A dark elf devoted to Xabrathon’s cause and to chaos for its own sake. Her worship is associated with storms, berserk fury, unpredictability, and reckless experimentation."><a class="lore-art" href="assets/lore/maltrix.webp" target="_blank" rel="noopener" aria-label="View Maltrix illustration and symbol"><img src="assets/lore/maltrix.webp" width="1536" height="1024" loading="lazy" alt="Maltrix, illustrated with sacred symbol: Whirling cyclone"></a>
       <div class="kicker">Chaos and Storms</div><h3>Maltrix</h3>
       <div class="deity-meta"><span class="tag">Chaotic Neutral</span><span class="tag">War, Tempest</span></div>
       <p>A dark elf devoted to Xabrathon’s cause and to chaos for its own sake. Her worship is associated with storms, berserk fury, unpredictability, and reckless experimentation.</p>
       <dl><dt>Symbol</dt><dd>Whirling cyclone</dd><dt>Domains</dt><dd>War, Tempest</dd></dl>
     </article>
-<article class="card deity filter-item" data-search="Etdar The Sea Chaotic Neutral Tempest, Nature Fish impaled on a trident A merman ruler who entered the Elder War late but provided crucial control of the waterways. Sailors and sea travelers revere him, and he guards the deep where Xabrathon was sealed.">
+<article class="card deity filter-item" data-search="Etdar The Sea Chaotic Neutral Tempest, Nature Fish impaled on a trident A merman ruler who entered the Elder War late but provided crucial control of the waterways. Sailors and sea travelers revere him, and he guards the deep where Xabrathon was sealed."><a class="lore-art" href="assets/lore/etdar.webp" target="_blank" rel="noopener" aria-label="View Etdar illustration and symbol"><img src="assets/lore/etdar.webp" width="1536" height="1024" loading="lazy" alt="Etdar, illustrated with sacred symbol: Fish impaled on a trident, clean heraldic depiction without gore"></a>
       <div class="kicker">The Sea</div><h3>Etdar</h3>
       <div class="deity-meta"><span class="tag">Chaotic Neutral</span><span class="tag">Tempest, Nature</span></div>
       <p>A merman ruler who entered the Elder War late but provided crucial control of the waterways. Sailors and sea travelers revere him, and he guards the deep where Xabrathon was sealed.</p>
       <dl><dt>Symbol</dt><dd>Fish impaled on a trident</dd><dt>Domains</dt><dd>Tempest, Nature</dd></dl>
     </article>
-<article class="card deity filter-item" data-search="Zonia Dreams and Death Lawful Evil Death, Trickery Crescent moon with stars A former cleric of Betorr who embraced undeath and later the realm of dreams. She brokered part of the postwar balance among the ascended gods and helped Galaxain become a lich.">
+<article class="card deity filter-item" data-search="Zonia Dreams and Death Lawful Evil Death, Trickery Crescent moon with stars A former cleric of Betorr who embraced undeath and later the realm of dreams. She brokered part of the postwar balance among the ascended gods and helped Galaxain become a lich."><a class="lore-art" href="assets/lore/zonia.webp" target="_blank" rel="noopener" aria-label="View Zonia illustration and symbol"><img src="assets/lore/zonia.webp" width="1536" height="1024" loading="lazy" alt="Zonia, illustrated with sacred symbol: Crescent moon with stars"></a>
       <div class="kicker">Dreams and Death</div><h3>Zonia</h3>
       <div class="deity-meta"><span class="tag">Lawful Evil</span><span class="tag">Death, Trickery</span></div>
       <p>A former cleric of Betorr who embraced undeath and later the realm of dreams. She brokered part of the postwar balance among the ascended gods and helped Galaxain become a lich.</p>
       <dl><dt>Symbol</dt><dd>Crescent moon with stars</dd><dt>Domains</dt><dd>Death, Trickery</dd></dl>
     </article>
-<article class="card deity filter-item" data-search="Wuella Shadows and Lies Neutral Evil Trickery, Knowledge Dripping blade Xabrathon’s master assassin during the Elder Wars. Assassins and murderers worship her, and her followers operate the feared Hand of Wuella.">
+<article class="card deity filter-item" data-search="Wuella Shadows and Lies Neutral Evil Trickery, Knowledge Dripping blade Xabrathon’s master assassin during the Elder Wars. Assassins and murderers worship her, and her followers operate the feared Hand of Wuella."><a class="lore-art" href="assets/lore/wuella.webp" target="_blank" rel="noopener" aria-label="View Wuella illustration and symbol"><img src="assets/lore/wuella.webp" width="1536" height="1024" loading="lazy" alt="Wuella, illustrated with sacred symbol: Dripping blade"></a>
       <div class="kicker">Shadows and Lies</div><h3>Wuella</h3>
       <div class="deity-meta"><span class="tag">Neutral Evil</span><span class="tag">Trickery, Knowledge</span></div>
       <p>Xabrathon’s master assassin during the Elder Wars. Assassins and murderers worship her, and her followers operate the feared Hand of Wuella.</p>
       <dl><dt>Symbol</dt><dd>Dripping blade</dd><dt>Domains</dt><dd>Trickery, Knowledge</dd></dl>
     </article>
-<article class="card deity filter-item" data-search="Dragaron Hatred and Rage Chaotic Evil Tempest, Death Black sun An ancient black dragon and general of Xabrathon’s forces, defeated and humiliated by Aldir. Dragaron remains a patron of rage, hatred, and the darkest villains.">
+<article class="card deity filter-item" data-search="Dragaron Hatred and Rage Chaotic Evil Tempest, Death Black sun An ancient black dragon and general of Xabrathon’s forces, defeated and humiliated by Aldir. Dragaron remains a patron of rage, hatred, and the darkest villains."><a class="lore-art" href="assets/lore/dragaron.webp" target="_blank" rel="noopener" aria-label="View Dragaron illustration and symbol"><img src="assets/lore/dragaron.webp" width="1536" height="1024" loading="lazy" alt="Dragaron, illustrated with sacred symbol: Black sun"></a>
       <div class="kicker">Hatred and Rage</div><h3>Dragaron</h3>
       <div class="deity-meta"><span class="tag">Chaotic Evil</span><span class="tag">Tempest, Death</span></div>
       <p>An ancient black dragon and general of Xabrathon’s forces, defeated and humiliated by Aldir. Dragaron remains a patron of rage, hatred, and the darkest villains.</p>
@@ -131,18 +146,19 @@
 <section class="section" id="locations"><div class="container">
 <div class="section-head"><div><div class="eyebrow">Kingdom of Valacia</div><h2>Playable locations at a glance</h2></div><p>High-value facts are surfaced first; social texture and adventure hooks stay one click away.</p></div>
 <div class="location-grid">
-<article class="card location-card filter-item" data-search="Brookhollow Valacia Salwyn Marsh Dancing Lady Tenera Bukoni Aldir Anora">
+<article class="card location-card filter-item" data-search="Brookhollow Valacia Salwyn Marsh Dancing Lady Tenera Bukoni Aldir Anora"><a class="lore-art city-art" href="assets/lore/brookhollow.webp" target="_blank" rel="noopener" aria-label="View Brookhollow artwork"><img src="assets/lore/brookhollow.webp" loading="lazy" alt="Brookhollow — fantasy settlement illustration"></a>
 <div class="kicker">Village</div><h3>Brookhollow</h3><p>A small farming community in northeastern Valacia, set in foothills near northern mountains, thick forest, and ancient ruins that still draw adventurers.</p>
 <div class="facts"><div class="fact"><b>Population</b><span>716</span></div><div class="fact"><b>Leadership</b><span>Reeve Salwyn “Sal” Marsh + council of elders</span></div><div class="fact"><b>Defense</b><span>20–30 rotating militia on duty</span></div><div class="fact"><b>Character</b><span>Farms, hunters, retired adventurers</span></div></div>
 <details><summary>Commerce & organizations</summary><div class="details-body">Traveling merchants and peddlers bring most exotic goods. Salwyn’s Trading Post is the local commercial hub. A temple to Tenera serves the farming population, with shrines to Bukoni, Aldir, and Anora. The village also has a council of elders and a socially influential “knitting circle.”</div></details>
 <details><summary>The Dancing Lady</summary><div class="details-body">A large three-story inn with 12 guest rooms, a busy common room, strong food reputation, and locally famous hard cider. Proprietor Ezmerelda “Zelda” is jovial but formidable; her husband Mika is a retired adventurer missing a hand.</div></details>
 </article>
-<article class="card location-card filter-item" data-search="Dardin Falls Baron Helleirth Highmantle Three Legged Sow Bound Zelander Axnus Gibeus">
+<article class="card location-card filter-item" data-search="Dardin Falls Baron Helleirth Highmantle Three Legged Sow Bound Zelander Axnus Gibeus"><a class="lore-art city-art" href="assets/lore/dardin-falls.webp" target="_blank" rel="noopener" aria-label="View Dardin Falls artwork"><img src="assets/lore/dardin-falls.webp" loading="lazy" alt="Dardin Falls — fantasy settlement illustration"></a>
 <div class="kicker">River town</div><h3>Dardin Falls</h3><p>West of Brookhollow, this tightly packed trade town sits on a major tributary and serves as the smaller village’s commercial “big brother.”</p>
 <div class="facts"><div class="fact"><b>Population</b><span>2,604</span></div><div class="fact"><b>Ruler</b><span>Baron Helleirth Highmantle</span></div><div class="fact"><b>Defense</b><span>Guard, sworn knights, and 200–250 muster potential</span></div><div class="fact"><b>Economy</b><span>River trade and dwarven goods</span></div></div>
 <details><summary>Commerce & faith</summary><div class="details-body">Trade flows from local lands and the dwarven kingdom of Dornhammer through the Dardin Tributary and Gniss River. Zelander has the largest temple; Axnus and Gibeus also have established worship. Major trading interests include the West Independent Company, Trader’s Guild, and Mithril Merchants.</div></details>
 <details><summary>The Bound & The Three Legged Sow</summary><div class="details-body">Dardin Falls has an organized criminal presence tied to the Bound in Borahn. The Three Legged Sow near the docks caters to commoners, adventurers, and rougher clientele. Owner Marcus Dwillin is believed to have an understanding with the Bound and employs five half-orc bouncers.</div></details>
 </article>
+<article class="card location-card"><a class="lore-art city-art" href="assets/lore/borahn.webp" target="_blank" rel="noopener" aria-label="View Borahn artwork"><img src="assets/lore/borahn.webp" loading="lazy" alt="Borahn: river docks, lilac stone towers and the tiered royal palace"></a><div class="kicker">Capital of Valacia</div><h3>Borahn</h3><p>A great river city of bustling docks, noble towers, crystal gardens, and a fortified royal hill. Its districts offer everything from grand scholarship to the intrigues of the Bound.</p><a class="btn" href="#borahn">Explore the districts →</a></article>
 </div>
 </div></section>
 
@@ -166,9 +182,9 @@
 <footer class="site-footer">
   <div class="container footer-row">
     <div><strong>Galoris Gaming</strong><br>Practical guides, campaign lore, and gaming tools.</div>
-    <div>Static site • No build step required • Works locally</div>
+    <div>Join In The Fun and Games</div>
   </div>
 </footer>
 <a class="backtop" href="#content" aria-label="Back to top">↑</a>
-<script src="assets/site.js?v=20260903-1"></script>
-</body></html>
+<script src="assets/site.js?v=20260908-premium"></script>
+<script src="assets/map-viewer.js?v=20260909"></script></body></html>

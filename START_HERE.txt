@@ -1,0 +1,26 @@
+GALORIS GAMING — PREMIUM VISUAL EDITION
+
+Open index.html after extracting the complete ZIP. Keep the assets folder beside it.
+No installation or build step is required.
+
+GITHUB PAGES
+Copy ALL contents of this ZIP into your publishing folder, with index.html at its
+root (not inside an extra enclosing folder). Include assets and .nojekyll.
+In GitHub Settings > Pages, select your publishing branch/folder if not already set.
+This package uses relative paths and works beneath a repository subdirectory.
+CSS/JS URLs carry a new version marker. If an old design persists after deployment,
+hard-refresh once and check that the new assets/premium.css and assets/art files
+were uploaded. Existing GitHub guidance is retained for reference.
+
+PROGRESS DATA
+Campaign and checklist progress remains device/browser-local. Keep the same
+published origin and path to preserve access to existing saved progress.
+
+CONTENT
+This is a visual upgrade, not a gameplay-data update. Existing calendar dates,
+Conquest information, priorities and the 0.5.5 Varashta guide remain as supplied.
+Diablo IV remains a lighter landing page; no unverified builds were invented.
+
+See ASSET_NOTES.txt and READINESS_CHECK.txt for provenance and validation scope.
+
+NEW: RPGs > Maps opens the interactive Eastern Continent atlas. Use slider/buttons to zoom and drag to pan; expand for more room. City and deity art opens at full size when selected.
