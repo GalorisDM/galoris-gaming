@@ -1,0 +1,41 @@
+/* RPG realm navigation, Selarin player codex, and realm directory. */
+body[data-realm="selarin"]{--art:url('selarin/greatworks.webp');--accent:#e5c58f;--accent-dark:#816138;--surface:#26231c;--muted:#d2c8b5}
+body[data-realm="hub"]{--art:url('selarin/waystone.webp');--accent:#ead1a2;--accent-dark:#735835;--surface:#1d2422}
+.realm-tabs{display:flex;flex-wrap:wrap;gap:10px;margin:21px 0 6px;align-items:center}
+.realm-tabs a{display:inline-flex;align-items:center;text-decoration:none;color:#f5ecdb;background:#151914cf;border:1px solid #d8be8d7a;padding:10px 17px;border-radius:8px;font-weight:700;font-size:.9rem;min-height:44px;transition:background .2s}
+.realm-tabs a:hover,.realm-tabs a[aria-current="page"]{background:#9d753b;color:#fff;border-color:#f3d39a}
+body[data-realm="galoris"]>.realm-tabs,body[data-realm="galoris"] main>.container>.realm-tabs{margin:25px auto 0}
+.realm-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.realm-card{border:1px solid #dbc28d55;border-radius:14px;overflow:hidden;background:linear-gradient(155deg,#24291f,#0d1719);box-shadow:0 20px 40px #0005}
+.realm-card-image{display:block;overflow:hidden}.realm-card-image img{width:100%;height:295px;object-fit:cover;display:block;transition:transform .25s}.realm-card:hover img{transform:scale(1.025)}
+.realm-card-body{padding:26px}.realm-card h3{font-size:2rem!important}.realm-card p{min-height:5.7em;color:#d3d2c9}.realm-card .btn{margin-top:12px}
+.tag-row{display:flex;flex-wrap:wrap;gap:7px;margin:12px 0}
+body[data-realm="selarin"] .hero.selarin-hero{background-position:center 40%;min-height:460px}
+body[data-realm="selarin"] .hero .lead{max-width:670px}
+body[data-realm="selarin"] .panel,body[data-realm="selarin"] .card{border-top:2px solid #cfb77c66;background:linear-gradient(130deg,#2b2921,#141c1b)}
+body[data-realm="selarin"] .callout{background:#987b4333;color:#eee4d3}
+.realm-intro-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:22px;align-items:stretch}
+.realm-intro-grid .panel{padding:28px;line-height:1.7}.realm-intro-grid .panel p{color:#d4cebf}
+.intro-art{min-height:330px;overflow:hidden;position:relative;border-radius:12px;border:1px solid #d1ac6955}.intro-art img{height:100%;width:100%;object-fit:cover;position:absolute;inset:0}.intro-art:after{content:"";position:absolute;inset:40% 0 0;background:linear-gradient(transparent,#10150ddb)}.intro-art span{position:absolute;bottom:18px;left:19px;z-index:1;color:#f7e3bb;text-shadow:0 2px 4px #000;font-size:.9rem;font-weight:700}
+.setting-prose{color:#ddd3bf;line-height:1.68}.setting-prose h3{font-size:1.1rem!important;margin:18px 0 7px;color:#e7c88c}.setting-prose h4{font-size:.98rem;margin:16px 0 5px;color:#f2dba6}.setting-prose p{margin:7px 0 15px}.setting-prose ul{margin-bottom:15px}
+.era-heading{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}.era-heading h3{margin:0}.age-date{color:#edc98e;font-size:.82rem;letter-spacing:.025em}.timeline .timeline-item>details{margin-top:12px}.timeline .timeline-item>p{color:#d6d0c0}
+body[data-realm="selarin"] .map-viewer{border-color:#c6a66c}
+body[data-realm="selarin"] .deity-grid{grid-template-columns:repeat(3,minmax(0,1fr));align-items:start}
+.selarin-deity{overflow:hidden;padding:16px!important}
+.deity-art{position:relative;margin:-16px -16px 20px;overflow:hidden;aspect-ratio:1.35;background:#191710}
+.deity-art>a:first-child{display:block;width:100%;height:100%}.deity-portrait{width:100%;height:100%;object-fit:cover;display:block}
+.deity-art>a:last-child{position:absolute;right:11px;bottom:10px;display:block;width:30%;min-width:75px;max-width:112px;aspect-ratio:1;background:#eee5c6;border:2px solid #dec18a;border-radius:13px;box-shadow:0 7px 20px #0009;overflow:hidden}.deity-symbol{width:100%;height:100%;object-fit:cover;display:block}
+.selarin-deity .kicker{font-size:.75rem}.selarin-deity h3{margin:8px 0}
+.selarin-deity dl{grid-template-columns:110px minmax(0,1fr)}.selarin-deity dt{color:#d1b889}.selarin-deity dd{overflow-wrap:anywhere}.selarin-deity .deity-summary{min-height:6.5rem;line-height:1.55}
+.selarin-deity .lore-expander{margin:19px 0 0}.selarin-deity summary{font-size:.9rem;padding:11px 14px}.selarin-deity .details-body{font-size:.91rem}.selarin-deity .details-body p{margin:7px 0 13px}
+.realm-profile-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;align-items:start}.realm-profile{padding:0!important;overflow:hidden}
+.region-visual{height:155px;overflow:hidden;background:linear-gradient(135deg,#595239,#161f20)}.region-visual img{height:100%;width:100%;object-fit:cover;display:block}.realm-placeholder{height:100%;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:1px;background:radial-gradient(circle at 70% 20%,#bea57280,#2b3027 65%,#121c19)}.realm-placeholder span{font-family:Georgia,serif;font-size:4.4rem;opacity:.65;color:#f4d99d;line-height:1}.realm-placeholder small{text-transform:uppercase;letter-spacing:.13em;color:#ede2c9}
+.region-body{padding:20px}.region-body h3{margin-top:0}.region-body p{min-height:8.3rem;line-height:1.52}.region-body details{margin-top:12px}
+.selarin-location{overflow:hidden}.selarin-location .lore-art{margin:-24px -24px 21px;border-radius:8px 8px 0 0;border:0}.selarin-location .lore-art img{height:220px;aspect-ratio:auto}.selarin-location h3{margin:5px 0 10px}.selarin-location>p{min-height:5.8rem}.selarin-location>details{margin-top:15px}.selarin-location .details-body h3{font-size:1.06rem!important}
+.selarin-location .tag-row{min-height:20px}.subsection-heading{margin:38px 0 14px}.gazetteer-extras{display:grid;gap:10px}.gazetteer-extras .details-body{max-width:900px}
+.reference-note{margin-top:26px;padding:12px 0;color:#cec3b1}.source-note{color:#bcbdba}
+.visually-hidden{position:absolute;width:1px;height:1px;clip:rect(0,0,0,0);overflow:hidden;white-space:nowrap}
+@media(max-width:1030px){.realm-profile-grid,.deity-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media(max-width:750px){.realm-gallery,.realm-intro-grid,.realm-profile-grid,.deity-grid{grid-template-columns:1fr!important}.selarin-deity .deity-summary,.region-body p,.selarin-location>p,.realm-card p{min-height:0}.realm-card-image img{height:215px}.intro-art{min-height:245px}.realm-tabs a{flex:1;justify-content:center;text-align:center}.region-visual{height:195px}}
+
+.history-figure{margin:18px 0 0;max-width:760px;border:1px solid #c5a97975;border-radius:10px;overflow:hidden;background:#1e241f}.history-figure img{display:block;width:100%;height:auto}.history-figure figcaption{padding:10px 14px;color:#dbcead;font-size:.86rem}
