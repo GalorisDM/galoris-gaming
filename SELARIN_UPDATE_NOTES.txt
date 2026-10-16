@@ -1,0 +1,9 @@
+Selarin fantasy update - 15 October 2026
+
+Updated from the two supplied illustrated player PDFs.
+Added all six historical fantasy passages, creature dangers across the realms, travel warnings for ten settlements, Aramere and Caldris regional dangers, and shared road reports.
+Replaced the Kharzai Dominion profile with the current public Archmagus account.
+Added both illustrated PDF downloads and updated settlement search indexes.
+Preserved the existing map, artwork, pantheon, and other gaming pages.
+
+Upload the contents of this package to the existing static website root.

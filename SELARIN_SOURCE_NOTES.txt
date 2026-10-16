@@ -1,0 +1,17 @@
+Selarin Website Addition — Source and Visibility Notes
+===================================================
+Player-facing text and setting information only:
+- Selarin_Player_Book_Art/Player_History.md (matches illustrated player history guide)
+- Selarin_Location_Asset_Pack/content/locations.json (marked audience: players)
+- Selarin_Deities.pdf (illustrated publicly described pantheon)
+
+Images:
+- Selarin_Player_Book_Art/player-map.png is copied unchanged as the interactive map, retaining original place-name lettering.
+- Selarin_Player_Book_Art/waystone.png, greatworks.png (web-optimized)
+- Selarin_Location_Asset_Pack/web/*.webp (web-optimized, excluding unused parchment texture)
+- Selarin_Deities.pdf portrait and sacred-symbol illustrations were extracted from each player's deity entry.
+
+EXCLUDED: Selarin_Aramere_Caldris_DM_Companion.pdf and any DM-only notes, secrets, encounters, or unrevealed revelations.
+
+All pages are ordinary static HTML and run without external dependencies.
+GitHub Pages: upload the extracted ZIP contents to the repository root, preserving .nojekyll.

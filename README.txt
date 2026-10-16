@@ -56,3 +56,10 @@ ANIMATED ACADEMY v4 UPDATE
 
 ANIMATED ACADEMY SITE SHELL
 The Animated Academy pages use their own alliance-branded header/navigation. Galoris Gaming appears only as a small hosted-and-maintained credit in the footer linking back to index.html.
+
+
+SELARIN RPG WORLD UPDATE — 2026-10-15
+Open rpg-realms.html to choose a realm, rpg.html for Galoris, or rpg-selarin.html for Selarin.
+The original Galoris RPG page/URL and the independent Animated Academy site are preserved.
+Selarin sources: Selarin_Player_History_Illustrated_Weathered.pdf and its player art pack; Selarin_Aramere_Caldris_Illustrated_Player_Guide_v2.pdf with its player location asset pack; Selarin_Deities.pdf. DM companion was not used.
+Interactive Selarin map uses the same map-viewer.js as Galoris. All media is packaged locally for static hosting/offline viewing.
